@@ -106,7 +106,7 @@ abstract class Service
             throw new \Exception("Mode is not supported, supported are : test and live");
         }
 
-        $this->basePath = $this->getMode() == "live" ? "https://api.myfatoorah.com/v2/" : "https://apitest.myfatoorah.com/v2/";
+        $this->basePath = $this->getMode() == "live" ? "https://api-sa.myfatoorah.com/v2/" : "https://apitest.myfatoorah.com/v2/";
     }
 
     /**
